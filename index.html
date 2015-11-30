@@ -4,21 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Responsive Two Column Layout (Left Column Fluid)</title>
+    <title>Flashlight Duty</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="chat.css">
 
     <style>
-      * { margin: 0; padding: 0; box-sizing: border-box; }
+      /** { margin: 0; padding: 0; box-sizing: border-box; }
       body { font: 13px Helvetica, Arial; }
       form { background: #000; padding: 0; position: relative; bottom: 0; width: 100%; }
       form input { border: 0; padding: 0; width: 100%; margin-right: 0; }
       form button { width: 100%; background: rgb(130, 224, 255); border: none; padding: 0; }
       #messages { list-style-type: none; margin: 0; padding: 0; }
       #messages li { padding: 5px 10px; }
-      #messages li:nth-child(odd) { background: #eee; }
+      #messages li:nth-child(odd) { background: #eee; }*/
     </style>
 
     <link rel="stylesheet" type="text/css" href="darkroom.css">
@@ -26,7 +26,7 @@
   </head>
 
   <body>
-    <h1>Responsive Two Column Layout (Left Column Fluid)</h1>
+    <h1>Flashlight Duty </h1>
 
     <header>
        <nav>
@@ -42,23 +42,67 @@
     <div class="columnsContainer">
 
       <div class="leftColumn">
-        <h2>Left Column (fluid)</h2>
-
         <div class="container">
           <img class="masked" id="image" src="./images/paris.png"/>
         </div>
-
       </div>
 
       <div class="rightColumn">
-        <h2>Right Column</h2>
-
-        <div class="chat">
-          <ul id="messages"></ul>
+        <div id="A">
+          <ul id="messages">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+          </ul>
+        </div>
+        <div id="B">
           <form action="">
-            <input id="m" autocomplete="off" /><button>Send</button>
+            <input id="m" type="text" autocomplete="off" placeholder="enter guess here"/>
+        </div>
+        <div id="C">
+            <button>Send</button>
           </form>
         </div>
+
+<!--         <div class="chat">
+          <div class="chatContainer">
+              <ul id="messages">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+              </ul>
+          </div>
+          <div class="charContainer2">
+            <form action="">
+              <input id="m" autocomplete="off" placeholder="type your guess here"/><button>Send</button>
+            </form>
+          </div>
+        </div> -->
+
       </div>
 
     </div>

@@ -70,11 +70,13 @@ header {
 @media screen and (min-width: 50em) {
   .leftColumn {
     margin-right: 19.5em;
+    height: 100%;
   }
   .rightColumn {
     position: absolute;
     top: 0;
-    right: 0;
-    width: 19.5em;
+    right: 1em;
+    width: 18em;
+    height: 100%;
   }
 }
